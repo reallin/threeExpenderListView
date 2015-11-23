@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/basic_item_layout"
+    android:orientation="vertical" >
+ 
+    
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_Item_layout"
+    android:background="#f2f2f2" 
+    >
+    
+    <TextView
+        android:id="@+id/lblListHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/expand_colapse"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="listitem"
+         android:textColor="#F76950"
+        android:textSize="18sp" />
+
+<!--     <TextView
+        android:id="@+id/listItemInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblListItem"
+        android:layout_toRightOf="@+id/expand_colapse"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="20dp"
+        android:text="info"
+        android:textSize="15sp" /> -->
+    
+ <!--    <ToggleButton
+        android:id="@+id/expand_colapse"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/togglearrow"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textOff=""
+        android:textOn="" /> -->
+
+    
+   </RelativeLayout>
+
+ 
+ 
+</RelativeLayout>
+
+    
